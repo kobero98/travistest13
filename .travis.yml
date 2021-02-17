@@ -1,4 +1,4 @@
 language: java
 jdk:
   -openjdk15
-script: ant testTravis12/build
+script: ant testTravis12\build
