@@ -1,4 +1,5 @@
 language: java
 jdk:
-  -openjdk15
-script: ant testTravis12\build
+  - oraclejdk8
+
+script: ant build
