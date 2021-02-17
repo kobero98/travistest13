@@ -4,7 +4,8 @@ jdk:
 addons:
   sonarcloud:
     organization: kobero98
-    token: vivaitalia
+    token:
+      secure: 8e66ffb5d90a5a015be145fd43f484c98df9d57a
 script:
   - ant -buildfile testTravis12/build.xml
   - sonar-scanner
