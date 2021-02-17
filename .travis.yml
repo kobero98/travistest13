@@ -6,5 +6,5 @@ addons:
     organization: kobero98
     token: vivaitalia
 script:
-  - ant -filebuilder testTravis12/build.xml
+  - ant -buildfile testTravis12/build.xml
   - sonar-scanner
