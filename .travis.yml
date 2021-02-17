@@ -3,8 +3,8 @@ jdk:
   - openjdk11
 addons:
   sonarcloud:
-    organization: Z
+    organization: kobero98
     token: vivaitalia
 script:
-  - ant build
+  - ant -filebuilder testTravis12/build.xml
   - sonar-scanner
